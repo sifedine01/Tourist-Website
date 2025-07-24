@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist - Modern Travel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f5f087331.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="maquette.css">
+  <style>body { background: #f7fafd; }</style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-teal sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <i class="fa-solid fa-location-dot me-2" style="font-size: 2rem;"></i>
+        <span style="font-family: 'Fredoka One', sans-serif; font-size: 2rem; color: #00b3b3;">Tourist</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-primary text-white px-3 ms-2" style="border-radius: 20px; background: #00b3b3; border: none;" href="#register">Register</a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="py-5 text-center hero-section">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold" style="color:#00b3b3;">Enjoy Your Vacation With Us</h1>
+      <p class="lead mb-4">Discover amazing destinations, premium packages, and unforgettable experiences.</p>
+      <a href="#register" class="btn btn-lg btn-primary mb-4" style="background:#00b3b3; border:none; border-radius:30px;">Get Started</a>
+      <div class="row justify-content-center align-items-center g-2 mt-3">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="search-bar-wrapper d-flex">
+            <input type="text" class="form-control search-input flex-grow-1" placeholder="Search destination (e.g. Thailand)">
+            <button type="submit" class="btn btn-primary search-btn ms-2" style="border-radius:30px;">Search</button>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="./img.vs/first maquette image.png" alt="About Us" class="img-fluid rounded-4 shadow-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-3" style="color:#00b3b3;">About Us</h2>
+          <p class="mb-3">Welcome to <span style="font-family:'Fredoka One',sans-serif;color:#00b3b3;">Tourist</span>! We offer handpicked hotels, first-class flights, and 24/7 service to make your journey unforgettable. Explore the world with us and enjoy premium experiences at every step.</p>
+          <ul class="list-unstyled">
+            <li><i class="fa-solid fa-check text-success me-2"></i> First class flights</li>
+            <li><i class="fa-solid fa-check text-success me-2"></i> 5 star accommodations</li>
+            <li><i class="fa-solid fa-check text-success me-2"></i> 150+ premium city tours</li>
+            <li><i class="fa-solid fa-check text-success me-2"></i> Handpicked hotels</li>
+          </ul>
+        </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5" style="color:#00b3b3;">Our Services</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="mb-3"><i class="fa-solid fa-plane fa-2x text-primary"></i></div>
+            <h5 class="fw-bold mb-2">First Class Flights</h5>
+            <p class="text-muted">Travel in comfort and style with our premium flight options.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="mb-3"><i class="fa-solid fa-hotel fa-2x text-primary"></i></div>
+            <h5 class="fw-bold mb-2">Luxury Hotels</h5>
+            <p class="text-muted">Stay at the world’s best hotels, handpicked for you.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="mb-3"><i class="fa-solid fa-map-location-dot fa-2x text-primary"></i></div>
+            <h5 class="fw-bold mb-2">City Tours</h5>
+            <p class="text-muted">Explore top destinations with expert local guides.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="mb-3"><i class="fa-solid fa-headset fa-2x text-primary"></i></div>
+            <h5 class="fw-bold mb-2">24/7 Support</h5>
+            <p class="text-muted">We’re here for you anytime, anywhere in the world.</p>
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5" style="color:#00b3b3;">Awesome Packages</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./img.vs/card1-img.png" class="card-img-top" alt="Thailand">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Thailand</h5>
+              <p class="card-text">7 days, 2 persons, 5-star hotel</p>
+              <div class="mb-2 text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold" style="color:#00b3b3;">$149.00</span>
+                <a href="#register" class="btn btn-outline-primary btn-sm" style="border-radius:20px;">Book Now</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./img.vs/card2-img.png" class="card-img-top" alt="Maldives">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Maldives</h5>
+              <p class="card-text">5 days, 2 persons, beach resort</p>
+              <div class="mb-2 text-warning">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold" style="color:#00b3b3;">$199.00</span>
+                <a href="#register" class="btn btn-outline-primary btn-sm" style="border-radius:20px;">Book Now</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./img.vs/card3-img.png" class="card-img-top" alt="Paris">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Paris</h5>
+              <p class="card-text">4 days, 2 persons, city tour</p>
+              <div class="mb-2 text-warning">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold" style="color:#00b3b3;">$179.00</span>
+                <a href="#register" class="btn btn-outline-primary btn-sm" style="border-radius:20px;">Book Now</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Meet Our Guides Section -->
+  <section id="guides" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5 text-teal">Meet Our Guides</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <img src="./img.vs/user1.png" class="rounded-circle mx-auto mb-3" style="width:80px;height:80px;object-fit:cover;" alt="Guide 1">
+            <h5 class="fw-bold mb-1">James Will</h5>
+            <p class="text-muted mb-2">New York, USA</p>
+            <div class="mb-2">
+              <a href="#" class="text-teal me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-teal me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-teal"><i class="fab fa-instagram"></i></a>
+      </div>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <img src="./img.vs/user2.png" class="rounded-circle mx-auto mb-3" style="width:80px;height:80px;object-fit:cover;" alt="Guide 2">
+            <h5 class="fw-bold mb-1">Anna Smith</h5>
+            <p class="text-muted mb-2">London, UK</p>
+            <div class="mb-2">
+              <a href="#" class="text-teal me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-teal me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-teal"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <img src="./img.vs/user3.png" class="rounded-circle mx-auto mb-3" style="width:80px;height:80px;object-fit:cover;" alt="Guide 3">
+            <h5 class="fw-bold mb-1">Maria Lopez</h5>
+            <p class="text-muted mb-2">Madrid, Spain</p>
+            <div class="mb-2">
+              <a href="#" class="text-teal me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-teal me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-teal"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <img src="./img.vs/user4.png" class="rounded-circle mx-auto mb-3" style="width:80px;height:80px;object-fit:cover;" alt="Guide 4">
+            <h5 class="fw-bold mb-1">Ahmed Ali</h5>
+            <p class="text-muted mb-2">Cairo, Egypt</p>
+            <div class="mb-2">
+              <a href="#" class="text-teal me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-teal me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-teal"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-5 masonry-gallery-section">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5 text-teal">Gallery</h2>
+      <div class="row masonry-gallery gx-3 gy-4 justify-content-center">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="masonry-gallery-img-wrapper">
+            <img src="./img.vs/page4-img1.png" class="img-fluid masonry-gallery-img" alt="Gallery 1">
+            <div class="masonry-gallery-caption">Beach Paradise</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="masonry-gallery-img-wrapper">
+            <img src="./img.vs/page4-img2.png" class="img-fluid masonry-gallery-img" alt="Gallery 2">
+            <div class="masonry-gallery-caption">Mountain Escape</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="masonry-gallery-img-wrapper">
+            <img src="./img.vs/page4-img3.png" class="img-fluid masonry-gallery-img" alt="Gallery 3">
+            <div class="masonry-gallery-caption">City Lights</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="masonry-gallery-img-wrapper">
+            <img src="./img.vs/page4-img4.png" class="img-fluid masonry-gallery-img" alt="Gallery 4">
+            <div class="masonry-gallery-caption">Desert Adventure</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- How it Works / Process Section -->
+  <section id="process" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5 text-teal">How It Works</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="mb-3"><i class="fa-solid fa-globe fa-2x text-primary"></i></div>
+            <h5 class="fw-bold mb-2">Choose a Destination</h5>
+            <p class="text-muted">Pick from our curated list of amazing places worldwide.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="mb-3"><i class="fa-solid fa-dollar-sign fa-2x text-primary"></i></div>
+            <h5 class="fw-bold mb-2">Pay Online</h5>
+            <p class="text-muted">Secure and easy payment for your peace of mind.</p>
+          </div>
+            </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm text-center p-4">
+            <div class="mb-3"><i class="fa-solid fa-plane fa-2x text-primary"></i></div>
+            <h5 class="fw-bold mb-2">Fly Today</h5>
+            <p class="text-muted">Pack your bags and get ready for your adventure!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact/Register Section -->
+  <section id="register" class="py-5 bg-light contact-section">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4 text-teal">Register / Contact Us</h2>
+      <div class="row justify-content-center align-items-center g-4">
+        <div class="col-12 col-lg-5 d-flex justify-content-center">
+          <div class="card contact-info-card border-0 shadow-lg p-4 text-center h-100" style="background: linear-gradient(135deg, #00b3b3 60%, #232b32 100%); color: #fff;">
+            <h4 class="fw-bold mb-3">Welcome to Tourist!</h4>
+            <p class="mb-3">We’re here to help you plan your dream vacation. Reach out for any questions or special requests.</p>
+            <div class="mb-3">
+              <i class="fa-solid fa-location-dot me-2"></i> 123 Street, New York, USA
+            </div>
+            <div class="mb-3">
+              <i class="fa-solid fa-phone me-2"></i> +012 345 67890
+            </div>
+            <div class="mb-3">
+              <i class="fa-solid fa-envelope me-2"></i> info@example.com
+            </div>
+            <div class="mt-4">
+              <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7 d-flex justify-content-center">
+          <form class="card border-0 shadow-lg p-4 w-100" style="max-width: 480px; background: #232b32; color: #f3f6fa;">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required style="background:#232b32; color:#fff; border:1.5px solid #00b3b3;">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required style="background:#232b32; color:#fff; border:1.5px solid #00b3b3;">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Destination (optional)" style="background:#232b32; color:#fff; border:1.5px solid #00b3b3;">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="3" placeholder="Message or Special Request" style="background:#232b32; color:#fff; border:1.5px solid #00b3b3;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100" style="background:#00b3b3; border:none; border-radius:24px;">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-4 bg-dark text-white mt-5">
+    <div class="container text-center">
+      <div class="mb-2">
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div style="font-size:0.95rem;">&copy; 2024 Tourist. All rights reserved.</div>
+      </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
